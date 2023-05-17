@@ -1,8 +1,7 @@
 # NMEA2000 Battery Voltage, Engine RPM, Fuel Level and Exhaust Temp Sender
 This repository shows how to measure the Battery Voltage, Engine RPM, Fuel Level and the Exhaust Temeperature and send it as NNMEA2000 meassage.
 
-[Motordaten.pdf](https://github.com/gerryvel/NMEA2000-Data-Sender/files/11497891/Motordaten.pdf)
-
+![grafik](https://github.com/gerryvel/NMEA2000-Data-Sender/assets/17195231/44e15e4d-84ff-42db-87dd-af9d1e82619b)
 
 The project requires the NMEA2000 and the NMEA2000_esp32 libraries from Timo Lappalainen: https://github.com/ttlappalainen.
 Both libraries have to be downloaded and installed.
