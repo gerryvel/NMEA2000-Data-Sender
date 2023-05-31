@@ -27,7 +27,7 @@
 #define ENABLE_DEBUG_LOG 0 // Debug log
 
 #define ADC_Calibration_Value1 250.0 // For resistor measure 5 Volt and 180 Ohm equals 100% plus 1K resistor.
-#define ADC_Calibration_Value2 34.3  // The real value depends on the true resistor values for the ADC input (100K / 27 K).
+#define ADC_Calibration_Value2 18,2  // The real value depends on the true resistor values for the ADC input (100K / 27 K).
 
 int NodeAddress;  // To store last Node Address
 
@@ -146,7 +146,7 @@ void setup() {
   // Set product information
   NMEA2000.SetProductInformation("1", // Manufacturer's Model serial code
                                  100, // Manufacturer's product code
-                                 "My Sensor Module",  // Manufacturer's Model ID
+                                 "MD Sensor Module",  // Manufacturer's Model ID
                                  "1.0.2.25 (2019-07-07)",  // Manufacturer's Software version code
                                  "1.0.2.0 (2019-07-07)" // Manufacturer's Model version
                                 );
@@ -233,8 +233,8 @@ void SendN2kBattery(double BatteryVoltage) {
   if ( IsTimeToUpdate(SlowDataUpdated) ) {
     SetNextUpdate(SlowDataUpdated, SlowDataUpdatePeriod);
 
-    Serial.printf("Voltage     : %3.0f ", BatteryVoltage);
-    Serial.println("%");
+    Serial.printf("Voltage     : %3.1f ", BatteryVoltage);
+    Serial.println("V");
 
     SetN2kDCBatStatus(N2kMsg, 0, BatteryVoltage, N2kDoubleNA, N2kDoubleNA, 1);
     NMEA2000.SendMsg(N2kMsg);
@@ -265,7 +265,7 @@ void SendN2kExhaustTemp(double temp) {
   if ( IsTimeToUpdate(SlowDataUpdated) ) {
     SetNextUpdate(SlowDataUpdated, SlowDataUpdatePeriod);
 
-    Serial.printf("Exhaust Temp: %3.0f °C \n", temp);
+    Serial.printf("Exhaust Temp: %3.1f °C \n", temp);
 
     // Select the right PGN for your MFD and set the PGN value also in "TransmitMessages[]"
 
