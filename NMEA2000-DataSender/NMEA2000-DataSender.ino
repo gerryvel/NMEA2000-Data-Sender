@@ -13,6 +13,7 @@
 */
 
 // Version 0.7, 28.01.2022, AK-Homberger
+// Version 0.8, 30.05.2023, Gerry Sebb
 
 #define ESP32_CAN_TX_PIN GPIO_NUM_5  // Set CAN TX port to 5 
 #define ESP32_CAN_RX_PIN GPIO_NUM_4  // Set CAN RX port to 4
