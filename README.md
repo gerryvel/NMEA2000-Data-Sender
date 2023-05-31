@@ -41,7 +41,7 @@ BTW: The full list of PGNs is defined in this header file of the NMEA 2000 libra
 
 - Adafruit Huzzah! ESP32 (for programming need USB-Adapter)
 - SN65HVD230 [Link](https://www.reichelt.de/high-speed-can-transceiver-1-mbit-s-3-3-v-so-8-sn-65hvd230d-p58427.html?&trstct=pos_0&nbc=1)
-- Traco-Power TSR 1-2450 for 12V / 5V [Link]([[Link]](https://www.reichelt.de/dc-dc-wandler-tsr-1-1-w-5-v-1000-ma-sil-to-220-tsr-1-2450-p116850.html?search=tsr+1-24))
+- Traco-Power TSR 1-2450 for 12V / 5V [Link]([[Link]](https://www.reichelt.de/dc-dc-wandler-tsr-1-1-w-5-v-1000-ma-sil-to-220-tsr-1-2450-p116850.html?search=tsr+1-24)
 - Resistor 3,3 KOhm [Link](https://www.reichelt.de/widerstand-kohleschicht-3-3-kohm-0207-250-mw-5--1-4w-3-3k-p1397.html?search=widerstand+250+mw+3k3) Other resistors are the same type! Click on "5% Carbon film resistors" then two times "+ more filter" to select values.
 - Diode 1N4148 [Link](https://www.reichelt.de/schalt-diode-100-v-150-ma-do-35-1n-4148-p1730.html?search=1n4148)
 - Zenerdiode 3,3 V [Link](https://www.reichelt.de/zenerdiode-3-3-v-0-5-w-do-35-zf-3-3-p23126.html?&trstct=pos_6&nbc=1)
