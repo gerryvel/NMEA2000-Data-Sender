@@ -76,7 +76,7 @@ const int ADCpin2 = 35;
 
 
 // Tank fluid level measure is connected GPIO 34 (Analog ADC1_CH6)
-const int ADCpin1 = 34;
+// const int ADCpin1 = 34;
 
 // Global Data
 float FuelLevel = 0;
