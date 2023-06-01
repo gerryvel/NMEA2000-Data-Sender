@@ -15,7 +15,7 @@ Both libraries have to be downloaded and installed.
 
 The ESP32 in this project is an Adafruit Huzzah! ESP32. Pin layout for other ESP32 devices might differ.
 
-For the ESP32 CAN bus, I used the "Waveshare SN65HVD230 Can Board" as transceiver. It works well with the ESP32.
+For the ESP32 CAN bus, I used the "SN65HVD230 Chip from TI" as transceiver. It works well with the ESP32.
 The correct GPIO ports are defined in the main sketch. For this project, I use the pins GPIO4 for CAN RX and GPIO5 for CAN TX. 
 
 The 12 Volt is reduced to 5 Volt with a DC Step-Down_Converter (Traco-Power TSR 1-2450).
